@@ -35,10 +35,10 @@ jobs:
       - name: Build plugin
         run: ./gradlew buildPlugin
 
-      - name: Publish to JetBrains Marketplace
-        env:
-          PUBLISH_TOKEN: ${{ secrets.JETBRAINS_MARKETPLACE_TOKEN }}
-        run: ./gradlew publishPlugin
+      # - name: Publish to JetBrains Marketplace
+      #   env:
+      #     PUBLISH_TOKEN: ${{ secrets.JETBRAINS_MARKETPLACE_TOKEN }}
+      #   run: ./gradlew publishPlugin
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
