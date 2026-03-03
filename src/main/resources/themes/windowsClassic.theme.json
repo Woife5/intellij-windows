@@ -88,6 +88,11 @@
       "ArrowButton.nonEditableBackground": "classicButtonFace"
     },
 
+    "CompletionPopup": {
+      "selectionBackground":          "#c0c0ff",
+      "selectionInactiveBackground":  "#c0c0ff"
+    },
+
     "Component": {
       "borderColor":                  "classicButtonShadow",
       "focusedBorderColor":           "classicText",
@@ -126,6 +131,15 @@
       "hoverForeground":              "classicBlueLink",
       "pressedForeground":            "classicTitlebar",
       "visitedForeground":            "classicPurple"
+    },
+
+    "List": {
+      "background":                   "classicWindowBg",
+      "foreground":                   "classicText",
+      "selectionBackground":          "classicSelection",
+      "selectionForeground":          "classicSelectionText",
+      "selectionInactiveBackground":  "classicButtonLight",
+      "selectionInactiveForeground":  "classicText"
     },
 
     "MainToolbar": {

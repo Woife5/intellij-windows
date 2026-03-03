@@ -20,7 +20,7 @@
         <!-- Windows XP -->
         <themeProvider
             id="f3a1b2c4-7e85-4d9a-bc12-3a8e56f90d21"
-            path="/themes/windowsXpLuna.theme.json"/>
+            path="/themes/windowsXp.theme.json"/>
 
         <!-- Windows Classic (95/NT/2000) -->
         <themeProvider

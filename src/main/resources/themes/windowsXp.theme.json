@@ -2,17 +2,28 @@
   "name": "Windows XP",
   "author": "Wolfgang",
   "dark": false,
-  "editorScheme": "/colorSchemes/windowsXpLuna.xml",
+  "editorScheme": "/colorSchemes/windowsXp.xml",
 
   "colors": {
     "xpPanelBg":          "#f0eee4",
-    "xpButtonFace":       "#f0eee4",
-    "xpButtonHighlight":  "#FFFFFF",
-    "xpButtonShadow":     "#c5ccc0",
-    "xpButtonDkShadow":   "#757267",
+    "xpButtonFace":       "#ece9d8",
+    "xpButtonHighlight":  "#ffffff",
+    "xpButtonShadow":     "#aca899",
+    "xpButtonDkShadow":   "#716f64",
+    "xpButtonGradientStart": "#ffffff",
+    "xpButtonGradientEnd":   "#ece9d8",
+    "xpButtonBorderOuter":   "#003c74",
+    "xpButtonBorderInner":   "#4080c0",
+    "xpDefaultBtnStart":     "#ffffff",
+    "xpDefaultBtnEnd":       "#c6d3f7",
+    "xpDefaultBtnBorder":    "#003c74",
+    "xpHoverBtnStart":       "#ffffff",
+    "xpHoverBtnEnd":         "#b9d0f0",
+    "xpPressedBtnStart":     "#b9d0f0",
+    "xpPressedBtnEnd":       "#98b5e2",
     "xpSelection":        "#316ac5",
-    "xpSelectionText":    "#FFFFFF",
-    "xpActiveBorder":     "#00246c",
+    "xpSelectionText":    "#ffffff",
+    "xpActiveBorder":     "#003c74",
     "xpInactiveBorder":   "#7686de",
     "xpTitleActive":      "#2157d7",
     "xpTitleText":        "#FFFFFF",
@@ -26,7 +37,7 @@
     "xpInfoText":         "#000000",
     "xpWindowText":       "#000000",
     "xpWindowBg":         "#FFFFFF",
-    "xpHighlight":        "#add6ff",
+    "xpHighlight":        "#c1e0ff",
     "xpSeparator":        "#c5ccc0",
     "xpBlueText":         "#6375d6",
     "xpBluePrimary":      "#2157d7",
@@ -43,16 +54,19 @@
     "*": {
       "background":                   "xpPanelBg",
       "foreground":                   "xpWindowText",
-      "selectionBackground":          "xpSelection",
-      "selectionForeground":          "xpSelectionText",
+      "selectionBackground":          "xpHighlight",
       "selectionInactiveBackground":  "xpHighlight",
-      "selectionInactiveForeground":  "xpWindowText",
       "disabledBackground":           "xpPanelBg",
       "disabledForeground":           "xpDisabled",
       "inactiveBackground":           "xpPanelBg",
       "inactiveForeground":           "xpDisabled",
       "borderColor":                  "xpButtonShadow",
       "separatorColor":               "xpSeparator"
+    },
+
+    "Editor": {
+      "background":                   "xpWindowBg",
+      "foreground":                   "xpWindowText"
     },
 
     "ActionButton": {
@@ -63,20 +77,25 @@
     },
 
     "Button": {
+      "arc":                          6,
       "background":                   "xpButtonFace",
       "foreground":                   "xpWindowText",
-      "startBackground":              "xpButtonFace",
-      "endBackground":                "xpButtonShadow",
-      "startBorderColor":             "xpButtonShadow",
-      "endBorderColor":               "xpButtonDkShadow",
-      "focusedBorderColor":           "xpSelection",
-      "default.background":           "xpSelection",
-      "default.foreground":           "xpSelectionText",
-      "default.startBackground":      "xpSelection",
-      "default.endBackground":        "xpActiveBorder",
-      "default.startBorderColor":     "xpActiveBorder",
-      "default.endBorderColor":       "xpActiveBorder",
-      "default.focusedBorderColor":   "xpActiveBorder"
+      "startBackground":              "xpButtonGradientStart",
+      "endBackground":                "xpButtonGradientEnd",
+      "startBorderColor":             "xpButtonBorderInner",
+      "endBorderColor":               "xpButtonBorderOuter",
+      "focusedBorderColor":           "xpButtonBorderOuter",
+      "shadowColor":                  "xpButtonShadow",
+      "shadowWidth":                  1,
+      "default.background":           "xpDefaultBtnEnd",
+      "default.foreground":           "xpWindowText",
+      "default.startBackground":      "xpDefaultBtnStart",
+      "default.endBackground":        "xpDefaultBtnEnd",
+      "default.startBorderColor":     "xpButtonBorderInner",
+      "default.endBorderColor":       "xpDefaultBtnBorder",
+      "default.focusedBorderColor":   "xpDefaultBtnBorder",
+      "default.shadowColor":          "xpButtonBorderOuter",
+      "default.shadowWidth":          1
     },
 
     "ComboBox": {
@@ -237,7 +256,18 @@
       "foreground":                   "xpWindowText",
       "Header.background":            "xpPanelBg",
       "Tab.selectedBackground":       "xpWindowBg",
-      "Tab.selectedForeground":       "xpWindowText"
+      "Tab.selectedForeground":       "xpWindowText",
+      "List.selectionBackground":     "xpHighlight",
+      "List.selectionForeground":     "xpWindowText"
+    },
+
+    "List": {
+      "background":                   "xpWindowBg",
+      "foreground":                   "xpWindowText",
+      "selectionBackground":          "xpHighlight",
+      "selectionForeground":          "xpWindowText",
+      "selectionInactiveBackground":  "xpHighlight",
+      "selectionInactiveForeground":  "xpWindowText"
     },
 
     "Separator": {
