@@ -1,0 +1,30 @@
+<idea-plugin>
+    <id>com.github.woife5.intellij-windows-themes</id>
+    <name>Windows Themes</name>
+    <vendor>Wolfgang</vendor>
+
+    <description><![CDATA[
+        Classic Windows UI themes for IntelliJ IDEA.<br><br>
+        <b>Included themes:</b>
+        <ul>
+            <li><b>Windows XP</b> – the iconic default Windows XP visual style with blue title bars,
+                the silver/gray panel chrome, and a light editor color scheme.</li>
+            <li><b>Windows Classic</b> – the timeless Windows 95/NT/2000 look with silver 3D buttons,
+                navy blue title bars, and classic text editor syntax highlighting.</li>
+        </ul>
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Windows XP -->
+        <themeProvider
+            id="f3a1b2c4-7e85-4d9a-bc12-3a8e56f90d21"
+            path="/themes/windowsXpLuna.theme.json"/>
+
+        <!-- Windows Classic (95/NT/2000) -->
+        <themeProvider
+            id="a5c8d1e3-9f72-4b6a-8e34-2d7c49a1f0b5"
+            path="/themes/windowsClassic.theme.json"/>
+    </extensions>
+</idea-plugin>

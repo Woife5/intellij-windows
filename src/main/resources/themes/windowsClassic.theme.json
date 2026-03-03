@@ -1,0 +1,349 @@
+{
+  "name": "Windows Classic",
+  "author": "Wolfgang",
+  "dark": false,
+  "editorScheme": "/colorSchemes/windowsClassic.xml",
+
+  "colors": {
+    "classicButtonFace":       "#c0c0c0",
+    "classicButtonLight":      "#dfdfdf",
+    "classicButtonShadow":     "#808080",
+    "classicButtonDark":       "#404040",
+    "classicWindowBg":         "#ffffff",
+    "classicDesktop":          "#008080",
+    "classicText":             "#000000",
+    "classicTextDisabled":     "#808080",
+    "classicTitlebar":         "#000080",
+    "classicTitlebarInactive": "#808080",
+    "classicTitleText":        "#ffffff",
+    "classicSelection":        "#000080",
+    "classicSelectionText":    "#ffffff",
+    "classicScrollbar":        "#c0c0c0",
+    "classicScrollThumb":      "#c0c0c0",
+    "classicMenuBg":           "#c0c0c0",
+    "classicInfoBg":           "#ffffe1",
+    "classicError":            "#ff0000",
+    "classicWarn":             "#808000",
+    "classicInfo":             "#000080",
+    "classicHint":             "#008080",
+    "classicGreen":            "#008000",
+    "classicMaroon":           "#800000",
+    "classicPurple":           "#800080",
+    "classicBlueLink":         "#0000ff",
+    "classicGitAdd":           "#008000",
+    "classicGitChange":        "#000080",
+    "classicGitDelete":        "#800000",
+    "classicDiffAddBg":        "#c0ffc0",
+    "classicDiffChangeBg":     "#ffffc0",
+    "classicDiffDeleteBg":     "#ffc0c0"
+  },
+
+  "ui": {
+    "*": {
+      "background":                   "classicButtonFace",
+      "foreground":                   "classicText",
+      "selectionBackground":          "classicSelection",
+      "selectionForeground":          "classicSelectionText",
+      "selectionInactiveBackground":  "classicButtonLight",
+      "selectionInactiveForeground":  "classicText",
+      "disabledBackground":           "classicButtonFace",
+      "disabledForeground":           "classicTextDisabled",
+      "inactiveBackground":           "classicButtonFace",
+      "inactiveForeground":           "classicTextDisabled",
+      "borderColor":                  "classicButtonShadow",
+      "separatorColor":               "classicButtonShadow"
+    },
+
+    "ActionButton": {
+      "hoverBackground":              "classicButtonLight",
+      "hoverBorderColor":             "classicButtonDark",
+      "pressedBackground":            "classicButtonShadow",
+      "pressedBorderColor":           "classicButtonDark"
+    },
+
+    "Button": {
+      "background":                   "classicButtonFace",
+      "foreground":                   "classicText",
+      "startBackground":              "classicButtonFace",
+      "endBackground":                "classicButtonFace",
+      "startBorderColor":             "classicButtonLight",
+      "endBorderColor":               "classicButtonDark",
+      "focusedBorderColor":           "classicText",
+      "default.background":           "classicButtonFace",
+      "default.foreground":           "classicText",
+      "default.startBackground":      "classicButtonFace",
+      "default.endBackground":        "classicButtonFace",
+      "default.startBorderColor":     "classicButtonLight",
+      "default.endBorderColor":       "classicButtonDark",
+      "default.focusedBorderColor":   "classicText"
+    },
+
+    "ComboBox": {
+      "background":                   "classicWindowBg",
+      "foreground":                   "classicText",
+      "selectionBackground":          "classicSelection",
+      "selectionForeground":          "classicSelectionText",
+      "disabledBackground":           "classicButtonFace",
+      "ArrowButton.background":       "classicButtonFace",
+      "ArrowButton.nonEditableBackground": "classicButtonFace"
+    },
+
+    "Component": {
+      "borderColor":                  "classicButtonShadow",
+      "focusedBorderColor":           "classicText",
+      "disabledBorderColor":          "classicButtonShadow",
+      "errorFocusColor":              "classicError",
+      "inactiveErrorFocusColor":      "classicMaroon",
+      "warningFocusColor":            "classicWarn",
+      "inactiveWarningFocusColor":    "classicWarn"
+    },
+
+    "EditorPane": {
+      "background":                   "classicWindowBg",
+      "foreground":                   "classicText"
+    },
+
+    "EditorTabs": {
+      "background":                   "classicButtonFace",
+      "underlineColor":               "classicTitlebar",
+      "underlineHeight":              2,
+      "inactiveUnderlineColor":       "classicButtonShadow",
+      "underlinedTabBackground":      "classicWindowBg",
+      "hoverBackground":              "classicButtonLight"
+    },
+
+    "FileColor": {
+      "Blue":                         "#c0c0ff",
+      "Green":                        "#c0ffc0",
+      "Orange":                       "#ffc0a0",
+      "Rose":                         "#ffc0c0",
+      "Violet":                       "#e0c0ff",
+      "Yellow":                       "#ffffc0"
+    },
+
+    "Link": {
+      "activeForeground":             "classicBlueLink",
+      "hoverForeground":              "classicBlueLink",
+      "pressedForeground":            "classicTitlebar",
+      "visitedForeground":            "classicPurple"
+    },
+
+    "MainToolbar": {
+      "background":                   "classicButtonFace",
+      "foreground":                   "classicText",
+      "Dropdown.background":          "classicButtonFace",
+      "Dropdown.hoverBackground":     "classicButtonLight",
+      "Icon.hoverBackground":         "classicButtonLight"
+    },
+
+    "Menu": {
+      "background":                   "classicMenuBg",
+      "foreground":                   "classicText",
+      "selectionBackground":          "classicSelection",
+      "selectionForeground":          "classicSelectionText",
+      "borderColor":                  "classicButtonDark",
+      "separatorColor":               "classicButtonShadow"
+    },
+
+    "MenuBar": {
+      "background":                   "classicButtonFace",
+      "foreground":                   "classicText",
+      "selectionBackground":          "classicSelection",
+      "selectionForeground":          "classicSelectionText"
+    },
+
+    "MenuItem": {
+      "background":                   "classicMenuBg",
+      "foreground":                   "classicText",
+      "selectionBackground":          "classicSelection",
+      "selectionForeground":          "classicSelectionText",
+      "acceleratorForeground":        "classicButtonDark",
+      "acceleratorSelectionForeground": "classicSelectionText",
+      "disabledForeground":           "classicTextDisabled"
+    },
+
+    "NavBar": {
+      "borderColor":                  "classicButtonShadow"
+    },
+
+    "Notification": {
+      "background":                   "classicInfoBg",
+      "foreground":                   "classicText",
+      "errorBackground":              "classicDiffDeleteBg",
+      "errorForeground":              "classicText",
+      "errorBorderColor":             "classicError",
+      "warningBackground":            "classicDiffChangeBg",
+      "warningForeground":            "classicText",
+      "warningBorderColor":           "classicWarn",
+      "informativeBackground":        "#c0c0ff",
+      "informativeForeground":        "classicText",
+      "informativeBorderColor":       "classicTitlebar"
+    },
+
+    "Panel": {
+      "background":                   "classicButtonFace",
+      "foreground":                   "classicText"
+    },
+
+    "Plugins": {
+      "background":                   "classicButtonFace",
+      "hoverBackground":              "classicButtonLight",
+      "lightSelectionBackground":     "classicButtonLight",
+      "Button.installBackground":     "classicButtonFace",
+      "Button.installForeground":     "classicText",
+      "Button.installBorderColor":    "classicButtonDark",
+      "Button.updateBackground":      "classicButtonFace",
+      "Button.updateForeground":      "classicText",
+      "Button.updateBorderColor":     "classicButtonDark",
+      "Tab.selectedBackground":       "classicWindowBg",
+      "Tab.selectedForeground":       "classicText",
+      "Tab.hoverBackground":          "classicButtonLight",
+      "SectionHeader.background":     "classicButtonShadow"
+    },
+
+    "Popup": {
+      "background":                   "classicMenuBg",
+      "foreground":                   "classicText",
+      "borderColor":                  "classicButtonDark",
+      "Header.background":            "classicButtonFace",
+      "Header.foreground":            "classicText",
+      "Toolbar.background":           "classicButtonFace"
+    },
+
+    "ProgressBar": {
+      "trackColor":                   "classicButtonShadow",
+      "progressColor":                "classicTitlebar",
+      "indeterminateStartColor":      "classicTitlebar",
+      "indeterminateEndColor":        "classicBlueLink",
+      "failedColor":                  "classicError",
+      "failedEndColor":               "classicMaroon",
+      "passedColor":                  "classicGreen",
+      "passedEndColor":               "#00ff00"
+    },
+
+    "ScrollBar": {
+      "background":                   "classicScrollbar",
+      "Mac.hoverThumbColor":          "classicButtonShadow",
+      "Mac.thumbColor":               "classicScrollThumb",
+      "Mac.trackColor":               "classicScrollbar",
+      "thumbColor":                   "classicScrollThumb",
+      "thumbBorderColor":             "classicButtonDark",
+      "trackColor":                   "classicScrollbar"
+    },
+
+    "SearchEverywhere": {
+      "background":                   "classicWindowBg",
+      "foreground":                   "classicText",
+      "Header.background":            "classicButtonFace",
+      "Tab.selectedBackground":       "classicWindowBg",
+      "Tab.selectedForeground":       "classicText"
+    },
+
+    "Separator": {
+      "separatorColor":               "classicButtonShadow"
+    },
+
+    "SidePanel": {
+      "background":                   "classicButtonFace"
+    },
+
+    "StatusBar": {
+      "background":                   "classicButtonFace",
+      "foreground":                   "classicText",
+      "borderColor":                  "classicButtonShadow"
+    },
+
+    "TabbedPane": {
+      "background":                   "classicButtonFace",
+      "foreground":                   "classicText",
+      "hoverColor":                   "classicButtonLight",
+      "underlineColor":               "classicTitlebar",
+      "contentAreaColor":             "classicButtonShadow"
+    },
+
+    "Table": {
+      "background":                   "classicWindowBg",
+      "foreground":                   "classicText",
+      "selectionBackground":          "classicSelection",
+      "selectionForeground":          "classicSelectionText",
+      "stripeColor":                  "classicButtonLight",
+      "sortIconColor":                "classicText",
+      "gridColor":                    "classicButtonShadow"
+    },
+
+    "TextField": {
+      "background":                   "classicWindowBg",
+      "foreground":                   "classicText",
+      "selectionBackground":          "classicSelection",
+      "selectionForeground":          "classicSelectionText",
+      "caretColor":                   "classicText",
+      "inactiveBackground":           "classicButtonFace",
+      "placeholderForeground":        "classicTextDisabled"
+    },
+
+    "TextArea": {
+      "background":                   "classicWindowBg",
+      "foreground":                   "classicText",
+      "selectionBackground":          "classicSelection",
+      "selectionForeground":          "classicSelectionText",
+      "caretColor":                   "classicText",
+      "inactiveBackground":           "classicButtonFace"
+    },
+
+    "ToolBar": {
+      "background":                   "classicButtonFace",
+      "foreground":                   "classicText",
+      "borderHandleColor":            "classicButtonShadow"
+    },
+
+    "ToolTip": {
+      "background":                   "classicInfoBg",
+      "foreground":                   "classicText",
+      "borderColor":                  "classicText",
+      "shortcutForeground":           "classicButtonDark"
+    },
+
+    "ToolWindow": {
+      "background":                   "classicButtonFace",
+      "Button.hoverBackground":       "classicButtonLight",
+      "Button.selectedBackground":    "classicButtonLight",
+      "Header.background":            "classicButtonFace",
+      "Header.borderColor":           "classicButtonShadow",
+      "Header.inactiveBackground":    "classicButtonFace",
+      "HeaderTab.underlineColor":     "classicTitlebar",
+      "HeaderTab.inactiveUnderlineColor": "classicButtonShadow",
+      "HeaderTab.selectedInactiveBackground": "classicButtonLight",
+      "HeaderTab.hoverBackground":    "classicButtonLight"
+    },
+
+    "Tree": {
+      "background":                   "classicWindowBg",
+      "foreground":                   "classicText",
+      "selectionBackground":          "classicSelection",
+      "selectionForeground":          "classicSelectionText",
+      "selectionInactiveBackground":  "classicButtonLight",
+      "rowHeight":                    20,
+      "hash":                         "classicButtonShadow",
+      "modifiedItemForeground":       "classicTitlebar"
+    },
+
+    "VersionControl": {
+      "FileHistory.Commit.selectedBackground": "classicSelection",
+      "Log.Commit.currentBranchBackground":    "classicButtonLight",
+      "RefLabel.backgroundBase":               "classicTitlebar",
+      "RefLabel.backgroundBrightness":         0.1
+    },
+
+    "WelcomeScreen": {
+      "background":                   "classicButtonFace",
+      "foreground":                   "classicText",
+      "borderColor":                  "classicButtonShadow",
+      "captionBackground":            "classicTitlebar",
+      "captionForeground":            "classicTitleText",
+      "groupIconBorderColor":         "classicButtonDark",
+      "Projects.background":          "classicWindowBg",
+      "Projects.selectionBackground": "classicSelection",
+      "Projects.selectionForeground": "classicSelectionText"
+    }
+  }
+}

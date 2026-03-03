@@ -1,0 +1,350 @@
+{
+  "name": "Windows XP",
+  "author": "Wolfgang",
+  "dark": false,
+  "editorScheme": "/colorSchemes/windowsXpLuna.xml",
+
+  "colors": {
+    "xpPanelBg":          "#f0eee4",
+    "xpButtonFace":       "#f0eee4",
+    "xpButtonHighlight":  "#FFFFFF",
+    "xpButtonShadow":     "#c5ccc0",
+    "xpButtonDkShadow":   "#757267",
+    "xpSelection":        "#316ac5",
+    "xpSelectionText":    "#FFFFFF",
+    "xpActiveBorder":     "#00246c",
+    "xpInactiveBorder":   "#7686de",
+    "xpTitleActive":      "#2157d7",
+    "xpTitleText":        "#FFFFFF",
+    "xpScrollbar":        "#c5ccc0",
+    "xpScrollThumb":      "#bdbcb9",
+    "xpGreen":            "#1e941e",
+    "xpMenuBg":           "#FFFFFF",
+    "xpMenuBorder":       "#7686de",
+    "xpDisabled":         "#bdbcb9",
+    "xpInfoBg":           "#FFFFE1",
+    "xpInfoText":         "#000000",
+    "xpWindowText":       "#000000",
+    "xpWindowBg":         "#FFFFFF",
+    "xpHighlight":        "#add6ff",
+    "xpSeparator":        "#c5ccc0",
+    "xpBlueText":         "#6375d6",
+    "xpBluePrimary":      "#2157d7",
+    "xpGitAdd":           "#8fc58a",
+    "xpGitChange":        "#8facf1",
+    "xpGitDelete":        "#777a89",
+    "xpError":            "#e53227",
+    "xpWarn":             "#f7e64d",
+    "xpInfo":             "#ffcc66",
+    "xpHint":             "#4bc1fe"
+  },
+
+  "ui": {
+    "*": {
+      "background":                   "xpPanelBg",
+      "foreground":                   "xpWindowText",
+      "selectionBackground":          "xpSelection",
+      "selectionForeground":          "xpSelectionText",
+      "selectionInactiveBackground":  "xpHighlight",
+      "selectionInactiveForeground":  "xpWindowText",
+      "disabledBackground":           "xpPanelBg",
+      "disabledForeground":           "xpDisabled",
+      "inactiveBackground":           "xpPanelBg",
+      "inactiveForeground":           "xpDisabled",
+      "borderColor":                  "xpButtonShadow",
+      "separatorColor":               "xpSeparator"
+    },
+
+    "ActionButton": {
+      "hoverBackground":              "xpHighlight",
+      "hoverBorderColor":             "xpSelection",
+      "pressedBackground":            "#7DA2CE",
+      "pressedBorderColor":           "xpActiveBorder"
+    },
+
+    "Button": {
+      "background":                   "xpButtonFace",
+      "foreground":                   "xpWindowText",
+      "startBackground":              "xpButtonFace",
+      "endBackground":                "xpButtonShadow",
+      "startBorderColor":             "xpButtonShadow",
+      "endBorderColor":               "xpButtonDkShadow",
+      "focusedBorderColor":           "xpSelection",
+      "default.background":           "xpSelection",
+      "default.foreground":           "xpSelectionText",
+      "default.startBackground":      "xpSelection",
+      "default.endBackground":        "xpActiveBorder",
+      "default.startBorderColor":     "xpActiveBorder",
+      "default.endBorderColor":       "xpActiveBorder",
+      "default.focusedBorderColor":   "xpActiveBorder"
+    },
+
+    "ComboBox": {
+      "background":                   "xpWindowBg",
+      "foreground":                   "xpWindowText",
+      "selectionBackground":          "xpSelection",
+      "selectionForeground":          "xpSelectionText",
+      "disabledBackground":           "xpPanelBg",
+      "ArrowButton.background":       "xpButtonFace",
+      "ArrowButton.nonEditableBackground": "xpButtonFace"
+    },
+
+    "Component": {
+      "borderColor":                  "xpButtonShadow",
+      "focusedBorderColor":           "xpSelection",
+      "disabledBorderColor":          "xpButtonShadow",
+      "errorFocusColor":              "xpError",
+      "inactiveErrorFocusColor":      "#eb7c63",
+      "warningFocusColor":            "xpWarn",
+      "inactiveWarningFocusColor":    "#ffcc66"
+    },
+
+    "EditorPane": {
+      "background":                   "xpWindowBg",
+      "foreground":                   "xpWindowText"
+    },
+
+    "EditorTabs": {
+      "background":                   "xpPanelBg",
+      "underlineColor":               "xpBluePrimary",
+      "underlineHeight":              2,
+      "inactiveUnderlineColor":       "xpButtonShadow",
+      "underlinedTabBackground":      "xpWindowBg",
+      "hoverBackground":              "xpHighlight"
+    },
+
+    "FileColor": {
+      "Blue":                         "#D9E7F5",
+      "Green":                        "#D6ECD2",
+      "Orange":                       "#FDEECE",
+      "Rose":                         "#FADCD9",
+      "Violet":                       "#E8D8F5",
+      "Yellow":                       "#FEFCD9"
+    },
+
+    "Link": {
+      "activeForeground":             "xpBluePrimary",
+      "hoverForeground":              "xpBluePrimary",
+      "pressedForeground":            "xpActiveBorder",
+      "visitedForeground":            "#800080"
+    },
+
+    "MainToolbar": {
+      "background":                   "xpBluePrimary",
+      "foreground":                   "xpTitleText",
+      "Dropdown.background":          "xpSelection",
+      "Dropdown.hoverBackground":     "xpActiveBorder",
+      "Icon.hoverBackground":         "xpActiveBorder"
+    },
+
+    "Menu": {
+      "background":                   "xpMenuBg",
+      "foreground":                   "xpWindowText",
+      "selectionBackground":          "xpSelection",
+      "selectionForeground":          "xpSelectionText",
+      "borderColor":                  "xpMenuBorder",
+      "separatorColor":               "xpSeparator"
+    },
+
+    "MenuBar": {
+      "background":                   "xpPanelBg",
+      "foreground":                   "xpWindowText",
+      "selectionBackground":          "xpSelection",
+      "selectionForeground":          "xpSelectionText"
+    },
+
+    "MenuItem": {
+      "background":                   "xpMenuBg",
+      "foreground":                   "xpWindowText",
+      "selectionBackground":          "xpSelection",
+      "selectionForeground":          "xpSelectionText",
+      "acceleratorForeground":        "xpButtonDkShadow",
+      "acceleratorSelectionForeground": "xpSelectionText",
+      "disabledForeground":           "xpDisabled"
+    },
+
+    "NavBar": {
+      "borderColor":                  "xpSeparator"
+    },
+
+    "Notification": {
+      "background":                   "#FFFAE3",
+      "foreground":                   "xpWindowText",
+      "errorBackground":              "#FFECEC",
+      "errorForeground":              "xpWindowText",
+      "errorBorderColor":             "xpError",
+      "warningBackground":            "#FFFAE3",
+      "warningForeground":            "xpWindowText",
+      "warningBorderColor":           "xpWarn",
+      "informativeBackground":        "#E8F4FD",
+      "informativeForeground":        "xpWindowText",
+      "informativeBorderColor":       "xpHint"
+    },
+
+    "Panel": {
+      "background":                   "xpPanelBg",
+      "foreground":                   "xpWindowText"
+    },
+
+    "Plugins": {
+      "background":                   "xpPanelBg",
+      "hoverBackground":              "xpHighlight",
+      "lightSelectionBackground":     "xpHighlight",
+      "Button.installBackground":     "xpSelection",
+      "Button.installForeground":     "xpSelectionText",
+      "Button.installBorderColor":    "xpActiveBorder",
+      "Button.updateBackground":      "xpGreen",
+      "Button.updateForeground":      "xpSelectionText",
+      "Button.updateBorderColor":     "#2A5208",
+      "Tab.selectedBackground":       "xpWindowBg",
+      "Tab.selectedForeground":       "xpWindowText",
+      "Tab.hoverBackground":          "xpHighlight",
+      "SectionHeader.background":     "xpButtonShadow"
+    },
+
+    "Popup": {
+      "background":                   "xpMenuBg",
+      "foreground":                   "xpWindowText",
+      "borderColor":                  "xpMenuBorder",
+      "Header.background":            "xpPanelBg",
+      "Header.foreground":            "xpWindowText",
+      "Toolbar.background":           "xpPanelBg"
+    },
+
+    "ProgressBar": {
+      "trackColor":                   "xpButtonShadow",
+      "progressColor":                "xpBluePrimary",
+      "indeterminateStartColor":      "xpBluePrimary",
+      "indeterminateEndColor":        "xpHighlight",
+      "failedColor":                  "xpError",
+      "failedEndColor":               "#eb7c63",
+      "passedColor":                  "xpGreen",
+      "passedEndColor":               "xpGitAdd"
+    },
+
+    "ScrollBar": {
+      "background":                   "xpScrollbar",
+      "Mac.hoverThumbColor":          "xpScrollThumb",
+      "Mac.thumbColor":               "xpScrollThumb",
+      "Mac.trackColor":               "xpScrollbar",
+      "thumbColor":                   "xpScrollThumb",
+      "thumbBorderColor":             "xpButtonDkShadow",
+      "trackColor":                   "xpScrollbar"
+    },
+
+    "SearchEverywhere": {
+      "background":                   "xpWindowBg",
+      "foreground":                   "xpWindowText",
+      "Header.background":            "xpPanelBg",
+      "Tab.selectedBackground":       "xpWindowBg",
+      "Tab.selectedForeground":       "xpWindowText"
+    },
+
+    "Separator": {
+      "separatorColor":               "xpSeparator"
+    },
+
+    "SidePanel": {
+      "background":                   "xpPanelBg"
+    },
+
+    "StatusBar": {
+      "background":                   "xpPanelBg",
+      "foreground":                   "xpWindowText",
+      "borderColor":                  "xpButtonShadow"
+    },
+
+    "TabbedPane": {
+      "background":                   "xpPanelBg",
+      "foreground":                   "xpWindowText",
+      "hoverColor":                   "xpHighlight",
+      "underlineColor":               "xpBluePrimary",
+      "contentAreaColor":             "xpButtonShadow"
+    },
+
+    "Table": {
+      "background":                   "xpWindowBg",
+      "foreground":                   "xpWindowText",
+      "selectionBackground":          "xpSelection",
+      "selectionForeground":          "xpSelectionText",
+      "stripeColor":                  "#F5F2EC",
+      "sortIconColor":                "xpWindowText",
+      "gridColor":                    "xpSeparator"
+    },
+
+    "TextField": {
+      "background":                   "xpWindowBg",
+      "foreground":                   "xpWindowText",
+      "selectionBackground":          "xpSelection",
+      "selectionForeground":          "xpSelectionText",
+      "caretColor":                   "xpWindowText",
+      "inactiveBackground":           "xpPanelBg",
+      "placeholderForeground":        "xpDisabled"
+    },
+
+    "TextArea": {
+      "background":                   "xpWindowBg",
+      "foreground":                   "xpWindowText",
+      "selectionBackground":          "xpSelection",
+      "selectionForeground":          "xpSelectionText",
+      "caretColor":                   "xpWindowText",
+      "inactiveBackground":           "xpPanelBg"
+    },
+
+    "ToolBar": {
+      "background":                   "xpPanelBg",
+      "foreground":                   "xpWindowText",
+      "borderHandleColor":            "xpButtonShadow"
+    },
+
+    "ToolTip": {
+      "background":                   "xpInfoBg",
+      "foreground":                   "xpInfoText",
+      "borderColor":                  "xpWindowText",
+      "shortcutForeground":           "xpButtonDkShadow"
+    },
+
+    "ToolWindow": {
+      "background":                   "xpPanelBg",
+      "Button.hoverBackground":       "xpHighlight",
+      "Button.selectedBackground":    "xpHighlight",
+      "Header.background":            "xpPanelBg",
+      "Header.borderColor":           "xpSeparator",
+      "Header.inactiveBackground":    "xpPanelBg",
+      "HeaderTab.underlineColor":     "xpBluePrimary",
+      "HeaderTab.inactiveUnderlineColor": "xpButtonShadow",
+      "HeaderTab.selectedInactiveBackground": "xpHighlight",
+      "HeaderTab.hoverBackground":    "xpHighlight"
+    },
+
+    "Tree": {
+      "background":                   "xpWindowBg",
+      "foreground":                   "xpWindowText",
+      "selectionBackground":          "xpSelection",
+      "selectionForeground":          "xpSelectionText",
+      "selectionInactiveBackground":  "xpHighlight",
+      "rowHeight":                    22,
+      "hash":                         "xpButtonShadow",
+      "modifiedItemForeground":       "xpBluePrimary"
+    },
+
+    "VersionControl": {
+      "FileHistory.Commit.selectedBackground": "xpSelection",
+      "Log.Commit.currentBranchBackground":    "xpHighlight",
+      "RefLabel.backgroundBase":               "xpBlueText",
+      "RefLabel.backgroundBrightness":         0.1
+    },
+
+    "WelcomeScreen": {
+      "background":                   "xpWindowBg",
+      "foreground":                   "xpWindowText",
+      "borderColor":                  "xpSeparator",
+      "captionBackground":            "xpBluePrimary",
+      "captionForeground":            "xpTitleText",
+      "groupIconBorderColor":         "xpMenuBorder",
+      "Projects.background":          "xpWindowBg",
+      "Projects.selectionBackground": "xpSelection",
+      "Projects.selectionForeground": "xpSelectionText"
+    }
+  }
+}
