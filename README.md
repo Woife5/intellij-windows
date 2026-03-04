@@ -4,18 +4,18 @@ Classic Windows UI themes for JetBrains IDEs.
 
 ## Included Themes
 
-- **Windows XP** - The iconic Windows XP visual style with blue title bars, silver/gray panel chrome, and a light editor color scheme
-- **Windows Classic** - The timeless Windows 95/NT/2000 look with silver 3D buttons, navy blue accents, and classic text editor syntax highlighting
+- **Windows XP**
+- **Windows Classic** - The classic Windows 95/NT/2000 look
 
 ## Screenshots
 
 ### Windows XP
 
-![Windows XP Theme](screenshots/windows-xp.png)
+![Windows XP Theme](https://github.com/user-attachments/assets/5dd6f067-161c-4b83-9686-3b20ba3040b4)
 
 ### Windows Classic
 
-![Windows Classic Theme](screenshots/windows-classic.png)
+![Windows Classic Theme](https://github.com/user-attachments/assets/01659abe-bfbc-4ea5-9846-21702807211f)
 
 ## Installation
 
@@ -32,7 +32,7 @@ Classic Windows UI themes for JetBrains IDEs.
 2. Go to **Settings → Plugins → ⚙️ → Install Plugin from Disk...**
 3. Select the downloaded ZIP file and restart
 
-## Getting Started
+## Setting the Theme
 
 After installation:
 
