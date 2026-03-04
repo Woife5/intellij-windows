@@ -23,7 +23,7 @@ Classic Windows UI themes for JetBrains IDEs.
 
 1. Open your JetBrains IDE
 2. Go to **Settings → Plugins → Marketplace**
-3. Search for "Windows Themes"
+3. Search for "[Windows Themes](https://plugins.jetbrains.com/plugin/30476-windows-themes/versions/stable/974667)"
 4. Click **Install** and restart
 
 ### From Disk
