@@ -150,8 +150,10 @@
 
     "MainToolbar": {
       "background":                   "xpBluePrimary",
+      "inactiveBackground":           "#8b8378",
       "foreground":                   "xpTitleText",
       "Dropdown.background":          "xpSelection",
+      "Dropdown.foreground":          "xpSelectionText",
       "Dropdown.hoverBackground":     "xpActiveBorder",
       "Icon.hoverBackground":         "xpActiveBorder"
     },
@@ -363,6 +365,34 @@
       "Log.Commit.currentBranchBackground":    "xpHighlight",
       "RefLabel.backgroundBase":               "xpBlueText",
       "RefLabel.backgroundBrightness":         0.1
+    },
+
+    "RunWidget": {
+      "foreground":                   "xpSelectionText",
+      "runningBackground":            "xpGreen",
+      "hoverBackground":              "xpActiveBorder",
+      "pressedBackground":            "xpActiveBorder"
+    },
+
+    "RecentProject": {
+      "Color1.MainToolbarGradientStart": "#4080d0",
+      "Color1.MainToolbarGradientEnd":   "#4080d000",
+      "Color2.MainToolbarGradientStart": "#4080d0",
+      "Color2.MainToolbarGradientEnd":   "#4080d000",
+      "Color3.MainToolbarGradientStart": "#4080d0",
+      "Color3.MainToolbarGradientEnd":   "#4080d000",
+      "Color4.MainToolbarGradientStart": "#4080d0",
+      "Color4.MainToolbarGradientEnd":   "#4080d000",
+      "Color5.MainToolbarGradientStart": "#4080d0",
+      "Color5.MainToolbarGradientEnd":   "#4080d000",
+      "Color6.MainToolbarGradientStart": "#4080d0",
+      "Color6.MainToolbarGradientEnd":   "#4080d000",
+      "Color7.MainToolbarGradientStart": "#4080d0",
+      "Color7.MainToolbarGradientEnd":   "#4080d000",
+      "Color8.MainToolbarGradientStart": "#4080d0",
+      "Color8.MainToolbarGradientEnd":   "#4080d000",
+      "Color9.MainToolbarGradientStart": "#4080d0",
+      "Color9.MainToolbarGradientEnd":   "#4080d000"
     },
 
     "WelcomeScreen": {
