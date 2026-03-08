@@ -4,18 +4,18 @@ Classic Windows UI themes for JetBrains IDEs.
 
 ## Included Themes
 
-- **Windows XP**
 - **Windows Classic** - The classic Windows 95/NT/2000 look
+- **Windows XP**
 
 ## Screenshots
 
-### Windows XP
-
-![Windows XP Theme](https://github.com/user-attachments/assets/5dd6f067-161c-4b83-9686-3b20ba3040b4)
-
 ### Windows Classic
 
-![Windows Classic Theme](https://github.com/user-attachments/assets/01659abe-bfbc-4ea5-9846-21702807211f)
+![Windows Classic Theme](https://github.com/user-attachments/assets/35edab19-3596-4464-84a4-4c58b77a0894)
+
+### Windows XP
+
+![Windows XP Theme](https://github.com/user-attachments/assets/470b10b2-2eaa-4a32-881b-584e69da3cc4)
 
 ## Installation
 
