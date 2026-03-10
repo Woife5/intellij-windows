@@ -4,14 +4,23 @@
     <vendor>Wolfgang</vendor>
 
     <description><![CDATA[
-        Classic Windows UI themes for IntelliJ IDEA.<br><br>
-        <b>Included themes:</b>
+        <p>Classic Windows UI themes for JetBrains IDEs.</p>
+
+        <h2>Included Themes</h2>
         <ul>
-            <li><b>Windows XP</b> – the iconic default Windows XP visual style with blue title bars,
-                the silver/gray panel chrome, and a light editor color scheme.</li>
-            <li><b>Windows Classic</b> – the timeless Windows 95/NT/2000 look with silver 3D buttons,
-                navy blue title bars, and classic text editor syntax highlighting.</li>
+          <li><b>Windows Classic</b> – The Windows 95/NT/2000 look</li>
+          <li><b>Windows XP</b></li>
         </ul>
+
+        <h2>Getting Started</h2>
+        <ol>
+          <li>Go to <b>Settings → Appearance &amp; Behavior → Appearance</b></li>
+          <li>Select <b>Windows XP</b> or <b>Windows Classic</b> from the Theme dropdown</li>
+          <li>Click <b>OK</b></li>
+        </ol>
+
+        <h2>Keywords</h2>
+        <p>Windows XP, Windows 95, Windows 98, Windows 2000, Windows NT, Windows Classic, Theme, Color Scheme, Light Theme</p>
     ]]></description>
 
     <depends>com.intellij.modules.platform</depends>

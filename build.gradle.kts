@@ -16,7 +16,6 @@ intellijPlatform {
         id = "com.github.woife5.intellij-windows-themes"
         name = providers.gradleProperty("pluginName").get()
         version = providers.gradleProperty("pluginVersion").get()
-        description = providers.fileContents(layout.projectDirectory.file("DESCRIPTION.html")).asText
         changeNotes = providers.fileContents(layout.projectDirectory.file("CHANGELOG.html")).asText
         ideaVersion {
             sinceBuild = providers.gradleProperty("pluginSinceBuild").get()
