@@ -57,7 +57,7 @@
     "ActionButton": {
       "hoverBackground":              "classicButtonLight",
       "hoverBorderColor":             "classicButtonDark",
-      "pressedBackground":            "classicButtonShadow",
+      "pressedBackground":            "classicButtonLight",
       "pressedBorderColor":           "classicButtonDark"
     },
 
@@ -319,8 +319,10 @@
 
     "ToolWindow": {
       "background":                   "classicButtonFace",
+      "Button.foreground":            "classicText",
       "Button.hoverBackground":       "classicButtonLight",
-      "Button.selectedBackground":    "classicButtonLight",
+      "Button.selectedBackground":    "classicButtonShadow",
+      "Button.selectedForeground":    "classicText",
       "Header.background":            "classicButtonFace",
       "Header.borderColor":           "classicButtonShadow",
       "Header.inactiveBackground":    "classicButtonFace",
