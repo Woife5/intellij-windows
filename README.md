@@ -68,7 +68,7 @@ This launches a sandboxed IntelliJ instance with the plugin pre-installed.
 Releases are automated via GitHub Actions.
 
 1. Update the version in `gradle.properties`
-2. Update CHANGELOG.md
+2. Update CHANGELOG.html
 3. Commit your changes
 4. Create and push a version tag:
 
