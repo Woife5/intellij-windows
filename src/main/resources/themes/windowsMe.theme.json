@@ -1,41 +1,42 @@
 {
-  "name": "Windows 95",
+  "name": "Windows ME",
   "author": "Wolfgang",
   "dark": false,
   "editorScheme": "/colorSchemes/windowsClassic.xml",
 
   "colors": {
-    "classicButtonFace":       "#c0c0c0",
-    "classicButtonLight":      "#dfdfdf",
+    "classicButtonFace":       "#ccc9c2",
+    "classicButtonLight":      "#ece9d8",
+    "classicActiveTab":        "#ddd9d1",
     "classicButtonShadow":     "#808080",
     "classicButtonDark":       "#404040",
     "classicWindowBg":         "#ffffff",
     "classicDesktop":          "#008080",
     "classicText":             "#000000",
     "classicTextDisabled":     "#808080",
-    "classicTitlebar":         "#000080",
+    "classicTitlebar":         "#0a246a",
     "classicTitlebarInactive": "#808080",
     "classicTitleText":        "#ffffff",
-    "classicSelection":        "#000080",
+    "classicSelection":        "#0a246a",
     "classicSelectionText":    "#ffffff",
-    "classicScrollbar":        "#c0c0c0",
-    "classicScrollThumb":      "#c0c0c0",
-    "classicMenuBg":           "#c0c0c0",
+    "classicScrollbar":        "#ccc9c2",
+    "classicScrollThumb":      "#ccc9c2",
+    "classicMenuBg":           "#ccc9c2",
     "classicInfoBg":           "#ffffe1",
     "classicError":            "#ff0000",
     "classicWarn":             "#808000",
-    "classicInfo":             "#000080",
+    "classicInfo":             "#0a246a",
     "classicHint":             "#008080",
     "classicGreen":            "#008000",
     "classicMaroon":           "#800000",
     "classicPurple":           "#800080",
     "classicBlueLink":         "#0000ff",
     "classicGitAdd":           "#008000",
-    "classicGitChange":        "#000080",
+    "classicGitChange":        "#0a246a",
     "classicGitDelete":        "#800000",
-    "classicDiffAddBg":        "#c0ffc0",
-    "classicDiffChangeBg":     "#ffffc0",
-    "classicDiffDeleteBg":     "#ffc0c0"
+    "classicDiffAddBg":        "#dff0d8",
+    "classicDiffChangeBg":     "#f5edc6",
+    "classicDiffDeleteBg":     "#efd6d3"
   },
 
   "ui": {
@@ -89,8 +90,8 @@
     },
 
     "CompletionPopup": {
-      "selectionBackground":          "#c0c0ff",
-      "selectionInactiveBackground":  "#c0c0ff"
+      "selectionBackground":          "#d9e3f2",
+      "selectionInactiveBackground":  "#d9e3f2"
     },
 
     "Component": {
@@ -113,17 +114,17 @@
       "underlineColor":               "classicTitlebar",
       "underlineHeight":              2,
       "inactiveUnderlineColor":       "classicButtonShadow",
-      "underlinedTabBackground":      "classicWindowBg",
+      "underlinedTabBackground":      "classicActiveTab",
       "hoverBackground":              "classicButtonLight"
     },
 
     "FileColor": {
-      "Blue":                         "#c0c0ff",
-      "Green":                        "#c0ffc0",
-      "Orange":                       "#ffc0a0",
-      "Rose":                         "#ffc0c0",
-      "Violet":                       "#e0c0ff",
-      "Yellow":                       "#ffffc0"
+      "Blue":                         "#d9e3f2",
+      "Green":                        "#dcebd2",
+      "Orange":                       "#f5dfc8",
+      "Rose":                         "#efd6d3",
+      "Violet":                       "#e6d9ef",
+      "Yellow":                       "#f5edc6"
     },
 
     "Link": {
@@ -189,7 +190,7 @@
       "warningBackground":            "classicDiffChangeBg",
       "warningForeground":            "classicText",
       "warningBorderColor":           "classicWarn",
-      "informativeBackground":        "#c0c0ff",
+      "informativeBackground":        "#d9e3f2",
       "informativeForeground":        "classicText",
       "informativeBorderColor":       "classicTitlebar"
     },
@@ -209,7 +210,7 @@
       "Button.updateBackground":      "classicButtonFace",
       "Button.updateForeground":      "classicText",
       "Button.updateBorderColor":     "classicButtonDark",
-      "Tab.selectedBackground":       "classicWindowBg",
+      "Tab.selectedBackground":       "classicButtonFace",
       "Tab.selectedForeground":       "classicText",
       "Tab.hoverBackground":          "classicButtonLight",
       "SectionHeader.background":     "classicButtonShadow"
@@ -246,10 +247,10 @@
     },
 
     "SearchEverywhere": {
-      "background":                   "classicWindowBg",
+      "background":                   "classicButtonFace",
       "foreground":                   "classicText",
       "Header.background":            "classicButtonFace",
-      "Tab.selectedBackground":       "classicWindowBg",
+      "Tab.selectedBackground":       "classicButtonFace",
       "Tab.selectedForeground":       "classicText"
     },
 
@@ -357,7 +358,7 @@
       "captionBackground":            "classicTitlebar",
       "captionForeground":            "classicTitleText",
       "groupIconBorderColor":         "classicButtonDark",
-      "Projects.background":          "classicWindowBg",
+      "Projects.background":          "classicButtonFace",
       "Projects.selectionBackground": "classicSelection",
       "Projects.selectionForeground": "classicSelectionText"
     }

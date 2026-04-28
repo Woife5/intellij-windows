@@ -8,19 +8,20 @@
 
         <h2>Included Themes</h2>
         <ul>
-          <li><b>Windows Classic</b> – The Windows 95/NT/2000 look</li>
+          <li><b>Windows 95</b> – Flat gray Windows 95/98 look</li>
+          <li><b>Windows ME</b> – Slightly warmer Windows 2000/ME look</li>
           <li><b>Windows XP</b></li>
         </ul>
 
         <h2>Getting Started</h2>
         <ol>
           <li>Go to <b>Settings → Appearance &amp; Behavior → Appearance</b></li>
-          <li>Select <b>Windows XP</b> or <b>Windows Classic</b> from the Theme dropdown</li>
+          <li>Select <b>Windows 95</b>, <b>Windows ME</b>, or <b>Windows XP</b> from the Theme dropdown</li>
           <li>Click <b>OK</b></li>
         </ol>
 
         <h2>Keywords</h2>
-        <p>Windows XP, Windows 95, Windows 98, Windows 2000, Windows NT, Windows Classic, Theme, Color Scheme, Light Theme</p>
+        <p>Windows XP, Windows 95, Windows 98, Windows ME, Windows 2000, Windows NT, Windows Classic, Theme, Color Scheme, Light Theme</p>
     ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
@@ -31,9 +32,14 @@
             id="f3a1b2c4-7e85-4d9a-bc12-3a8e56f90d21"
             path="/themes/windowsXp.theme.json"/>
 
-        <!-- Windows Classic (95/NT/2000) -->
+        <!-- Windows 95 -->
         <themeProvider
             id="a5c8d1e3-9f72-4b6a-8e34-2d7c49a1f0b5"
             path="/themes/windowsClassic.theme.json"/>
+
+        <!-- Windows ME -->
+        <themeProvider
+            id="7e6c1ab4-1cc1-4a57-bfa7-5cf0fc592df9"
+            path="/themes/windowsMe.theme.json"/>
     </extensions>
 </idea-plugin>

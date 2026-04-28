@@ -4,14 +4,15 @@ Classic Windows UI themes for JetBrains IDEs.
 
 ## Included Themes
 
-- **Windows Classic** - The classic Windows 95/NT/2000 look
+- **Windows 95** - The flat gray Windows 95/98 look
+- **Windows ME** - The warmer Windows 2000/ME look
 - **Windows XP**
 
 ## Screenshots
 
-### Windows Classic
+### Windows 95
 
-![Windows Classic Theme](https://github.com/user-attachments/assets/35edab19-3596-4464-84a4-4c58b77a0894)
+![Windows 95 Theme](https://github.com/user-attachments/assets/35edab19-3596-4464-84a4-4c58b77a0894)
 
 ### Windows XP
 
@@ -37,7 +38,7 @@ Classic Windows UI themes for JetBrains IDEs.
 After installation:
 
 1. Go to **Settings → Appearance & Behavior → Appearance**
-2. Select **Windows XP** or **Windows Classic** from the Theme dropdown
+2. Select **Windows 95**, **Windows ME**, or **Windows XP** from the Theme dropdown
 3. Click **OK**
 
 ## Development

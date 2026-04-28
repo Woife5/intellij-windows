@@ -1,15 +1,15 @@
-<scheme name="Windows Classic" version="142" parent_scheme="Default">
+<scheme name="Windows 95" version="142" parent_scheme="Default">
   <metaInfo>
     <property name="created">2026-03-03T00:00:00</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2024.3</property>
     <property name="modified">2026-03-03T00:00:00</property>
-    <property name="originalScheme">Windows Classic</property>
+    <property name="originalScheme">Windows 95</property>
   </metaInfo>
 
   <!-- ============================================================
        Global editor colors (matched to Neovim windows-classic palette)
-       Windows 95/NT/2000 style with silver UI and navy accents
+       Windows 95/98 style with silver UI and navy accents
        ============================================================ -->
   <colors>
     <!-- Editor canvas -->
